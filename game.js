@@ -5,6 +5,7 @@ var started = false;
 var level = 0;
 
 $(".start").click(function(){
+    startOver();
     if (!started){
         $("#level-title").text("level " + level);
         nextSequence();
