@@ -8,6 +8,7 @@ $(".start").click(function(){
     startOver();
     if (!started){
         $("#level-title").text("level " + level);
+        $(".start").text("Restart");
         nextSequence();
         started = true;
     }
